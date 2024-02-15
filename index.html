@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSRAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+      <img class="icon" src="catsu-logo.png">
+        <h2>ASSRAS</h2>
+          <form id="loginForm">
+              <select id="userType">
+                <option selected class="selected">Select User Type</option>
+                <option value="admin">Admin</option>
+                <option value="clerk">Clerk</option>
+              <option value="client">Client</option>
+              </select>
+              <input type="text" id="username" placeholder="Username" name="username" class="icon1" style="text-indent:17px;" required >
+              <input type="password" placeholder="Password" id="password" name="password" class="icon2" style="text-indent:17px;" required >
+            <button type="submit">LOGIN</button>
+          </form>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>

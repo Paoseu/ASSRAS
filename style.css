@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, rgba(106,147,255,1) 0%, rgba(253,255,153,1) 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-container {
+    background-color: rgba(3, 3, 3, 0.219);
+    padding: 30px;
+    border-radius: 60px;
+    box-shadow: 0 15px 15px 10px rgba(0,0,0,0.1);
+}
+img.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    border-radius: 50%;
+}
+@font-face {
+    font-family: myFont;
+    src: url(Poppins-Bold.ttf   ) 
+}   
+h2 {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: myFont;
+}   
+label{
+    margin-bottom: 20px;
+    color: white;
+}
+select{
+    border-radius: 15px;
+    background-color: #92b3fadc;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 50px;
+    width: 300px;
+    margin: auto;
+    color: white;
+    font-size: 13px;
+    border: none;
+    font-weight: 100;
+    font-family: myFont;
+    background-image: url(down.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 255px 10px;
+    outline: none;
+}
+select:hover{
+    border: 2px solid white;
+}
+select::-ms-expand{
+    display: none;
+}
+select option{
+    background-color: #92b3fadc;
+}
+.selected{
+    display: none;
+}
+option{
+    border-color: black;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    
+}
+select, button {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.icon1  {
+    padding-left: 25px;
+    background: url(user.svg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+}
+.icon2{
+    padding-left: 25px;
+    background: url(lock.svg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+}
+input[type="text"],
+input[type="password"] {
+    box-sizing: border-box;
+    width: 380px; 
+    height: 50px; 
+    border: 2px solid rgba(255, 255, 255, 0.651); 
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+::placeholder{
+    text-emphasis-color: #7ca5ffdc;
+    color: white;
+}       
+button {
+    background-image: linear-gradient(to right, #eedb2d 0%, #f1fc5c  51%, #eee132  100%);
+    padding: 15px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(221, 219, 219);            
+    box-shadow: 0 0 5px #fbfcd7;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    width: 200px;
+    margin: auto;
+    font-weight: 900;
+}
+
+button:hover{
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+ 
